@@ -22,7 +22,8 @@ namespace Projeto_02.Model
         {
             //Construtor de string:
             StringBuilder sb = new StringBuilder();
-            sb.Append("<?xml version='1.0'>");
+
+            sb.Append("<?xml version='1.0'?>");
             sb.Append("<dados>");
             sb.AppendFormat("<texto>{0}</texto>", texto);
             sb.Append("</dados>");
@@ -32,12 +33,6 @@ namespace Projeto_02.Model
         public void FecharArquivo()
         {
             sw.Close();
-        }
-
-
-        public void GravarConteudo()
-        {
-            throw new NotImplementedException();
         }
     }
 }

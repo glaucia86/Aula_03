@@ -14,7 +14,7 @@ namespace Projeto_02
             IArquivo a = new Documento();
 
             a.AbrirArquivo();
-            //a.GravarConteudo("Testando o nosso projeto.....");
+            a.GravarConteudo("Testando o nosso projeto.....");
             a.FecharArquivo();
 
             Console.WriteLine("Dados Gravados com Sucesso!!!");

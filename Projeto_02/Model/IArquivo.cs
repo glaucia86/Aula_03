@@ -10,7 +10,7 @@ namespace Projeto_02.Model
     {
         //Prototipação do Método:
         void AbrirArquivo();
-        void GravarConteudo();
+        void GravarConteudo(string texto);
         void FecharArquivo();
     }
 }
